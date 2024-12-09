@@ -23,8 +23,8 @@ git clone
 ```
 
 El directorio debe contener una serie de carpetas y archivos, siendo los más importantes los siguientes:
-### main.py: Archivo de la API del servicio. Para utilizar la versión original del programa, diríjase a src\f5_tts\infer\infer_gradio.py.
-### request.py: Archivo que contiene la solicitud correspondiente y una señal de respuesta correcta o incorrecta de la API.
+main.py: Archivo de la API del servicio. Para utilizar la versión original del programa, diríjase a src\f5_tts\infer\infer_gradio.py.
+request.py: Archivo que contiene la solicitud correspondiente y una señal de respuesta correcta o incorrecta de la API.
 
 Se proporcionará una explicación más extensa en los pasos posteriores.
 
