@@ -18,15 +18,19 @@ dependencies = [
     "bitsandbytes>0.37.0",
     "cached_path",
     "click",
+    "flask",
+    "datetime",
     "datasets",
     "ema_pytorch>=0.5.2",
     "gradio>=3.45.2",
+    "huggingface_hub",
     "jieba",
     "librosa",
     "matplotlib",
     "numpy<=1.26.4",
     "pydub",
     "pypinyin",
+    "spaces",
     "safetensors",
     "soundfile",
     "tomli",
@@ -39,6 +43,7 @@ dependencies = [
     "vocos",
     "wandb",
     "x_transformers>=1.31.14",
+    "num2words",
 ]
 
 [project.optional-dependencies]
