@@ -70,7 +70,14 @@ Una vez descargado se dirigirá a la dirección encontrada anteriormente, allí 
 
 Una vez hecho esto el programa funcionará según lo necesite.
 
-#Instalacion segun programa original (en ingles)
+## Iniciar API
+Para iniciar la API, se debe ejecutar el archivo “main.py” que se encuentra en la carpeta principal.
+Después de ejecutar el archivo, se podrá acceder a la API a través de la dirección correspondiente (por defecto, localhost:5000).
+Es necesario asegurarse de que todos los módulos se hayan cargado correctamente y de que no haya errores en la terminal.
+Se recomienda realizar una prueba de la API haciendo una petición a http://localhost:5000 para verificar que esté funcionando correctamente.
+
+
+# Instalacion segun programa original (en ingles)
 
 
 ```
