@@ -19,7 +19,7 @@ cd "Inserte aqui su ubicacion"
 Se debe realizar una copia del repositorio ubicado en GitHub utilizando el siguiente comando:
 
 ```bash
-git clone 
+git clone https://github.com/Carlos-not-found/TTS-2.0
 ```
 
 El directorio debe contener una serie de carpetas y archivos, siendo los más importantes los siguientes:
