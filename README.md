@@ -1,9 +1,5 @@
-# Details of This Fork
-This mainly differs by adding the Duration Predictor from: https://github.com/lucasnewman/f5-tts-mlx.
-
-The authors had reasons to not merge into the main repo as discussed here: https://github.com/SWivid/F5-TTS/pull/363 so I am maintaining a fork here with it.
-
-I won't be as active in keeping up with all the updates to the main repo, so if you're looking for the most up-to-date code, please refer to: https://github.com/SWivid/F5-TTS
+# Detalles del Proyecto
+Este proyecto consta de un TTS (Text To Speech) para la empresa Alloxentric, en el cual a través de una API, se envía el texto que se desea generar a voz y este devuelve un archivo .wav con el audio generado por un modelo de F5-TTS.
 
 # F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
 [![python](https://img.shields.io/badge/Python-3.10-brightgreen)](https://github.com/SWivid/F5-TTS)
