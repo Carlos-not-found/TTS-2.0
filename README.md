@@ -1,26 +1,6 @@
 # Detalles del Proyecto
 Este proyecto consta de un TTS (Text To Speech) para la empresa Alloxentric, en el cual a través de una API, se envía el texto que se desea generar a voz y este devuelve un archivo .wav con el audio generado por un modelo de F5-TTS.
 
-# F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
-[![python](https://img.shields.io/badge/Python-3.10-brightgreen)](https://github.com/SWivid/F5-TTS)
-[![arXiv](https://img.shields.io/badge/arXiv-2410.06885-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.06885)
-[![demo](https://img.shields.io/badge/GitHub-Demo%20page-orange.svg)](https://swivid.github.io/F5-TTS/)
-[![hfspace](https://img.shields.io/badge/🤗-Space%20demo-yellow)](https://huggingface.co/spaces/mrfakename/E2-F5-TTS)
-[![msspace](https://img.shields.io/badge/🤖-Space%20demo-blue)](https://modelscope.cn/studios/modelscope/E2-F5-TTS)
-[![lab](https://img.shields.io/badge/X--LANCE-Lab-grey?labelColor=lightgrey)](https://x-lance.sjtu.edu.cn/)
-<img src="https://github.com/user-attachments/assets/12d7749c-071a-427c-81bf-b87b91def670" alt="Watermark" style="width: 40px; height: auto">
-
-**F5-TTS**: Diffusion Transformer with ConvNeXt V2, faster trained and inference.
-
-**E2 TTS**: Flat-UNet Transformer, closest reproduction from [paper](https://arxiv.org/abs/2406.18009).
-
-**Sway Sampling**: Inference-time flow step sampling strategy, greatly improves performance
-
-### Thanks to all the contributors !
-
-## News
-- **2024/10/08**: F5-TTS & E2 TTS base models on [🤗 Hugging Face](https://huggingface.co/SWivid/F5-TTS), [🤖 Model Scope](https://www.modelscope.cn/models/SWivid/F5-TTS_Emilia-ZH-EN), [🟣 Wisemodel](https://wisemodel.cn/models/SJTU_X-LANCE/F5-TTS_Emilia-ZH-EN).
-
 ## Prerequisites
 - Python 3.11 - https://www.python.org/downloads/release/python-3119/
 - git - https://git-scm.com/downloads/win
