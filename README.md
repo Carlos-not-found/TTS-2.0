@@ -8,16 +8,70 @@ Este proyecto consta de un TTS (Text To Speech) para la empresa Alloxentric, en 
   - Watch a tutorial here: https://www.youtube.com/watch?v=JR36oH35Fgg&t=159s&ab_channel=Koolac
 - Nvidia GPU with more than 8gb of VRAM 
 
-## Installation
+# Instalacion
+## Seleccionar la ubicación del directorio
+Se recomienda elegir una ubicación fácilmente accesible. Para seleccionar la ubicación, utilice el siguiente comando:
+```bash
+cd "Inserte aqui su ubicacion"
+```
+## Descargar los archivos al directorio 
+
+Se debe realizar una copia del repositorio ubicado en GitHub utilizando el siguiente comando:
 
 ```bash
-# Create a python 3.10 conda env (you could also use virtualenv)
-conda create -n f5-tts python=3.10
-conda activate f5-tts
+git clone 
+```
 
-# Install pytorch with your CUDA version, e.g.
-# torch >= 2.4 is needed for duration model
+El directorio debe contener una serie de carpetas y archivos, siendo los más importantes los siguientes:
+### main.py: Archivo de la API del servicio. Para utilizar la versión original del programa, diríjase a src\f5_tts\infer\infer_gradio.py.
+### request.py: Archivo que contiene la solicitud correspondiente y una señal de respuesta correcta o incorrecta de la API.
+
+Se proporcionará una explicación más extensa en los pasos posteriores.
+
+## Instalación de los requerimientos básicos
+En este paso, una vez dentro de la carpeta, se debe ejecutar el siguiente comando para construir el ambiente virtual:
+
+```bash
+py -3.11 -m venv venv
+```
+
+
+"Una vez creado el ambiente virtual, se procederá a iniciar el entorno de trabajo:
+```bash
+venv\Scripts\activate
+```
+Se comenzará instalando las primeras librerías utilizando el siguiente comando:
+
+```bash
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118
+```
+Finalmente, se instalarán los recursos necesarios para el programa.
+
+```bash
+pip install -e .
+```
+
+## Inicio preventivo
+Para iniciar la API, primero se debe ejecutar el programa original, con el objetivo de que se generen las carpetas necesarias para implementar el modelo en español. Para ello, inicie el programa con el siguiente comando:
+
+```bash
+f5-tts_infer-gradio
+```
+Una vez iniciado, en la terminal se debería ver una línea similar a el siguiente ejemplo 
+
+```bash
+model : C:\Users\"nombre del usuario"\.cache\huggingface\hub\models--SWivid--F5-TTS\snapshots\995ff41929c08ff968786b448a384330438b5cb6\F5TTS_Base\model_1200000.safetensors
+```
+A continuación se descargará un archivo con el mismo nombre al de la dirección en la siguiente página
+
+https://huggingface.co/jpgallegoar/F5-Spanish/tree/main 
+
+Una vez descargado se dirigirá a la dirección encontrada anteriormente, allí verá el archivo mencionado en la dirección, agregue la extensión “.bak” al archivo y mueva el descargado anteriormente a esta carpeta.
+
+Una vez hecho esto el programa funcionará según lo necesite.
+
+#Instalacion segun programa original (en ingles)
+
 
 ```
 
